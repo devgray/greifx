@@ -4,6 +4,7 @@
 }
 .avatar{
     width:150px;
+    height:150px;
     border-radius:100em !important;
     overflow: hidden;
     margin-bottom:15px;
