@@ -66,4 +66,8 @@ h1{
     }
     .short-info li{
     }
+    .image-thumbnails img{
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
