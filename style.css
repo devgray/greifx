@@ -45,6 +45,9 @@ h1{
 .short-info a:hover{
     text-decoration: line-through;
 }
+#active{
+    text-decoration: line-through;
+}
 
 @media (max-width:768px){
     .section-header{
