@@ -111,6 +111,9 @@ h3{
 }
 
 @media (max-width:480px){
+    #emotes{
+        width:100%;
+    }
     #nav-mobile{
         display: block;
     }
