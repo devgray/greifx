@@ -104,8 +104,9 @@ h3{
         height:300px;
     }
     .nav li{
-        padding-left:15px;
-        padding-right:15px;
+        list-style: none;
+        display:inline;
+        padding:15px;
     }
 }
 
@@ -132,6 +133,7 @@ h3{
     .image-thumbnails{
         padding-left:10px;
         padding-right:10px;
+        margin-top:15px;
     }
    
 }
