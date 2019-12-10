@@ -1,6 +1,7 @@
 *{
     font-family: 'Montserrat';
     padding:0;
+    /* line-height:2.5em; */
 }
 .avatar{
     width:150px;
@@ -15,16 +16,23 @@
 h1{
     font-weight: 700;
 }
-
+h3{
+    font-weight:700;
+    font-size:1.5em;
+}
 .section-header{
-    margin-top:100px;
+    margin-top:80px;
     height:300px;
     display:flex;
 }
-.short-info{
-    margin-top:30px;
-    font-weight:300;
+.nav{
+    display:block;
+    margin-top:15px;
+    font-weight:500;
     font-size:1em;
+}
+.content-body{
+    font-size:.9em;
 }
 .image-thumbnails{
     margin-top:50px;
@@ -46,27 +54,53 @@ h1{
 .img-wrap{
     /* overflow: hidden; */
 }
-.short-info li{
+.footer{
+    margin-bottom:30px;
+}
+.footer ol{
+    margin-bottom:.5rem;
+}
+.footer-links li{
+    list-style: none;
+    display: inline;
+    padding-left:20px;
+    padding-right:20px;
+    color:black;
+    opacity: .7;
+}
+.nav li{
     list-style: none;
     display:inline;
-    padding-left:30px;
-    padding-right:30px;
+    padding:20px;
+}
+.nav a{
+    text-decoration: none;
+    font-size:.8em;
     color:black;
+    opacity: .7;
+    padding-bottom:10px;
 }
-.short-info a:hover{
-    text-decoration: line-through;
+.nav a:hover, #active{
     text-decoration-color: black;
+    opacity: 1;
+    border-bottom:solid 1px black;
 }
-#active{
-    text-decoration: line-through;
-    text-decoration-color: black;
+.footer-links li:hover{
+    opacity: 1;
 }
-
+.section-body{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.sub-header{
+    opacity:.3;
+}
 @media (max-width:768px){
     .section-header{
-        height:250px;
+        margin-top:50px;
+        height:300px;
     }
-    .short-info li{
+    .nav li{
         padding-left:15px;
         padding-right:15px;
     }
@@ -74,16 +108,21 @@ h1{
 
 @media (max-width:480px){
     .section-header{
-        margin-top:50px;
+        margin-top:30px;
         height:300px;
     }
-    .short-info{
-        margin-top:0px;
+    .nav{
+        margin-top:20px;
     }
-    .short-info li{
+    h1{
+        font-size:30px;
     }
-    .image-thumbnails img{
+    h3{
+        font-size:25px;
+    }
+    .image-thumbnails{
         padding-left:10px;
         padding-right:10px;
     }
+   
 }
