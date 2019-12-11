@@ -36,6 +36,7 @@ h3{
 }
 .content-body{
     font-size:.9em;
+    margin-bottom:50px;
 }
 .image-thumbnails{
     margin-top:50px;
@@ -98,6 +99,14 @@ h3{
 .sub-header{
     opacity:.3;
 }
+#emotes{
+    width:100%;
+}
+@media (max-width:1024px){
+    #emotes{
+        width:100%;
+    }
+}
 @media (max-width:768px){
     .section-header{
         margin-top:50px;
@@ -107,6 +116,9 @@ h3{
         list-style: none;
         display:inline;
         padding:15px;
+    }
+    #emotes{
+        width:100%;
     }
 }
 
@@ -131,7 +143,7 @@ h3{
         font-size:30px;
     }
     h3{
-        font-size:25px;
+        font-size:20px;
     }
     .image-thumbnails{
         padding-left:10px;
