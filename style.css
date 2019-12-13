@@ -31,6 +31,9 @@ h4{
 p{
     font-size:.9em;
 }
+.section-client .col-lg-2{
+    font-size:.9em;
+}
 .section-header{
     margin-top:80px;
     height:300px;
@@ -173,6 +176,9 @@ p{
         padding-left:10px;
         padding-right:10px;
         margin-top:15px;
+    }
+    .section-client .col-sm-4{
+        width:33.3333%;
     }
    
 }
