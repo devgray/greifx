@@ -23,10 +23,28 @@ h3{
     font-weight:700;
     font-size:1.5em;
 }
+h4{
+    font-weight: 700;
+    font-size:1.2em;
+    text-align: left;
+}
+p{
+    font-size:.9em;
+}
 .section-header{
     margin-top:80px;
     height:300px;
     display:flex;
+}
+.section-faq p{
+    font-size:.8em;
+    text-align: left;
+}
+.faq-icon{
+    width:100px;
+    height:100px;
+    border-radius:100em;
+    margin-bottom:20px;
 }
 .nav{
     display:block;
@@ -52,11 +70,11 @@ h3{
 }
 .image-thumbnails img:hover{
     filter:none;
-    transform: scale(1.1);
     transition: transform .2s;
 }
 .img-wrap{
-    /* overflow: hidden; */
+    overflow: hidden;
+    padding:5px;
 }
 .footer{
     margin-bottom:30px;
@@ -144,6 +162,12 @@ h3{
     }
     h3{
         font-size:20px;
+    }
+    .section-faq h4{
+        font-size:16px;
+    }
+    .section-faq .col-sm-4{
+        margin-bottom:15px;
     }
     .image-thumbnails{
         padding-left:10px;
