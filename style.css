@@ -123,6 +123,29 @@ p{
 #emotes{
     width:100%;
 }
+.img-wrap{
+    padding:10px;
+    overflow: hidden;
+}
+.img-content{
+    display: none;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    color:white;
+    right:0;
+    z-index:10;
+    padding:20px;
+    width:100%;
+}
+.img-wrap:hover #imc-1,.img-wrap:hover #imc-2,.img-wrap:hover #imc-3{
+    display: block;
+}
+.img-wrap:hover #imc-4,.img-wrap:hover #imc-5,.img-wrap:hover #imc-6{
+    display: block;
+}
+.img-wrap:hover #imc-7,.img-wrap:hover #imc-8,.img-wrap:hover #imc-9{
+    display: block;
+}
 @media (max-width:1024px){
     #emotes{
         width:100%;
