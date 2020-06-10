@@ -73,6 +73,7 @@ p{
 }
 .image-thumbnails img:hover{
     filter:none;
+    cursor: pointer;
     transition: transform .2s;
 }
 .img-wrap{
