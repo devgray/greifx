@@ -147,6 +147,7 @@ p{
 .img-wrap:hover #imc-7,.img-wrap:hover #imc-8,.img-wrap:hover #imc-9{
     display: block;
 }
+
 @media (max-width:1024px){
     #emotes{
         width:100%;
